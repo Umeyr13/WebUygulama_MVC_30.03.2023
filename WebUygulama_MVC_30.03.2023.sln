@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUygulama_MVC_30.03.2023", "WebUygulama_MVC_30.03.2023\WebUygulama_MVC_30.03.2023.csproj", "{E2453334-0E5D-44AF-9CFB-CA6933B3B55B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcUygulamaOrnek", "MvcUygulamaOrnek\MvcUygulamaOrnek.csproj", "{071D26D4-AE0F-441B-A860-BEA7A348207B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2453334-0E5D-44AF-9CFB-CA6933B3B55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2453334-0E5D-44AF-9CFB-CA6933B3B55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2453334-0E5D-44AF-9CFB-CA6933B3B55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2453334-0E5D-44AF-9CFB-CA6933B3B55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{071D26D4-AE0F-441B-A860-BEA7A348207B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071D26D4-AE0F-441B-A860-BEA7A348207B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071D26D4-AE0F-441B-A860-BEA7A348207B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071D26D4-AE0F-441B-A860-BEA7A348207B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC0F5EEF-23F5-422C-8A97-3DB4F9E64DD1}
+	EndGlobalSection
+EndGlobal

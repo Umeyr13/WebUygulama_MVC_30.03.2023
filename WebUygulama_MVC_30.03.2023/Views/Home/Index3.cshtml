@@ -1,0 +1,43 @@
+﻿@using WebUygulama_MVC_30._03._2023.Library_helpermetotlar
+<!-- Sayfanın İskeleti -->
+@{
+    ViewBag.Title = "Index3";
+
+}
+
+<h2>Index3</h2>
+
+İsim Giriniz:
+<input type="text" name="name" value="" />
+<br />
+
+Yaşınızı Giriniz:
+<input type="text" name="tex2" value="" />
+
+<input type="button" name="butonkayıt" value="Kaydet" />
+<a href="/Home/Index2"> Index2 ye gider </a>
+
+
+<hr />
+<a href="/Home/Index">Index 1 E gider</a>
+
+<!--html helper mototları. yerine bunlar kullanıyor-->
+<a href="#">content</a>
+@Html.ActionLink("Indexe Git", "Index", new { isim = "Umeyr", Soyisim = "Gülçimen" })
+<br />
+<input type="textbox" name="name" value="" />
+@Html.TextBox("text2", "deneme")
+<br />
+@Html.TextArea("Text3")
+@Html.TextArea("text4", "Ön Yazı", 10, 30, null)
+@Html.Button("", "", "Gönder", "btn btn-color", HelperClass.buttontip.submit)
+
+<a href="@Url.Action("Index")">Index e git</a><!--url yi gizleyere açar-->
+<br />
+@Url.Encode("/Home/Index2/deger=Merhaba Dünya")
+<br />
+@HttpUtility.HtmlEncode("<button> Reset </button>")
+<br />
+@HttpUtility.HtmlDecode("&lt;button&gt; Reset &lt;/button&gt; ")
+@Html.Raw("<b>Elif </b>")
+@Html.Raw("<script 'type=text/javascript'>alert('Merhaba ')</script>")

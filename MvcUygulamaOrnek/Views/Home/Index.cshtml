@@ -1,0 +1,24 @@
+﻿@using MvcUygulamaOrnek.Helper_Class
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @Html.Button("Hakkında", "", "anasayfa", HelperClass.ButtonTip.submit)
+        <a href="/Home/Index">Anasayfa</a>
+        @Html.Button("Hakkında", "", "hakkında", HelperClass.ButtonTip.submit)
+        <a href="/Home/Hakkimizda">Hakkında</a>
+        @Html.Button("Hakkında", "", "iletisim", HelperClass.ButtonTip.submit) İletişim
+    </div>
+    
+
+</body>
+</html>
